@@ -1,0 +1,13 @@
+include pyproject.toml
+include colored/__init__.py
+include colored/background.py
+include colored/colored.py
+include colored/library.py
+include colored/foreground.py
+include colored/hexadecimal.py
+include colored/attributes.py
+include CHANGES.md
+include LICENSE.txt
+include README.md
+recursive-include tests *.py
+recursive-include docs *.txt

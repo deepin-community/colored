@@ -1,5 +1,63 @@
-template-repository (1.0-1) unstable; urgency=medium
+colored (2.2.3-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ AdneMoretti ]
+  * New upstream version 2.2.3.
+
+  [ Leonardo Milomes Vitoriano ]
+  * d/control: Add pybuild-plugin-pyproject to Build-Depends.
+  * d/control: Bump Standards-Version to 4.6.2
+
+ -- Leonardo Milomes Vitoriano <leonardomilov@gmail.com>  Fri, 06 Oct 2023 09:30:42 -0300
+
+colored (1.4.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 28 Oct 2022 19:55:56 +0100
+
+colored (1.4.2-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Arthur Diniz ]
+  * New upstream version 1.4.2
+  * debian/control: Declare compliance with debian policy 4.5.1
+
+ -- Arthur Diniz <arthurbdiniz@gmail.com>  Wed, 13 Jan 2021 00:19:16 -0300
+
+colored (1.3.93-2) unstable; urgency=medium
+
+  [ Arthur Diniz ]
+  * Upload to unstable.
+  * Run wrap-and-sort.
+  * debian/control: Added 'Rules-Requires-Root: no' in source stanza.
+  * debian/copyright:
+      - Added Ondřej Nový.
+      - Changed license from MIT to Expat on Upstream and Packaging.
+  * debian/docs: Created and linked with README.rst.
+  * debian/salsa-ci.yml: Created.
+  * debian/watch: Fix regex.
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+ -- Arthur Diniz <arthurbdiniz@gmail.com>  Thu, 31 Oct 2019 16:28:30 -0300
+
+colored (1.3.93-1) experimental; urgency=medium
+
+  * Initial release. (Closes: #932142)
+
+ -- Arthur Diniz <arthurbdiniz@gmail.com>  Mon, 15 Jul 2019 14:18:46 -0400
