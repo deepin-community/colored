@@ -1,0 +1,2 @@
+version=4
+https://gitlab.com/dslackw/colored/-/tags .*/archive/.*/colored-v?@ANY_VERSION@@ARCHIVE_EXT@
